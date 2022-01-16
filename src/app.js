@@ -24,6 +24,9 @@ app.get("/users/:id", (req, res) => {
 		}
 	});
 });
+// really long long functions that is a bad bad bad !!!!
+// please talk with me tomrrow please please please please
+
 app.post("/users", (req, res) => {
 	const { id = 0, cash = 0, credit = 0 } = req.body;
 	fs.readFile(pathToUsers, "utf-8", (err, data) => {
